@@ -946,6 +946,10 @@ GameObject:
   - component: {fileID: 5044037986695056263}
   - component: {fileID: 3741320322158687407}
   - component: {fileID: 9178143384350271896}
+  - component: {fileID: 8972002145719822400}
+  - component: {fileID: 337243147738607508}
+  - component: {fileID: 3414902647093020783}
+  - component: {fileID: 4548407639861950749}
   m_Layer: 0
   m_Name: Animal_Fox_01
   m_TagString: Untagged
@@ -1013,7 +1017,65 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cdbc0d4e098acd41bd99e5d61c28497, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 8
+--- !u!114 &8972002145719822400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8415313276930059171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498bb175b9347f6469fc30ef7a7058b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &337243147738607508
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8415313276930059171}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.11343425, y: 0.20824079, z: 0.3202668}
+  m_Center: {x: 0.011634457, y: 0.10580196, z: 0.013071919}
+--- !u!114 &3414902647093020783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8415313276930059171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a974c63c41d444bb716ec8e532d57a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4548407639861950749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8415313276930059171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39a319df72779b84b834cbeda9fd83f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxValue: 0
 --- !u!1 &8981755878210700652
 GameObject:
   m_ObjectHideFlags: 0
